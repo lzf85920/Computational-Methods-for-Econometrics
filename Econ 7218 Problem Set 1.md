@@ -6,7 +6,9 @@ For this course, it will be necessary to use a general or scientific programming
 
 Consider a simple binary choice model where unobserved error terms U1 and U2 are both standard type-I value distributed with cdf
 
-$$F (u) = e^{e^{(-u)}}$$
+$$
+F (u) = e^{e^{(-u)}}
+$$
 
 and where there are two covariates $X_1$ ∼ $N(0,1)$ and $X_2$ ∼ $χ^2(1)$.
 
