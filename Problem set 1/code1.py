@@ -40,7 +40,7 @@ def grid_search(n):
 
     return beta1_hat, beta2_hat
   
-  start = time.time()
+start = time.time()
 beta1, beta2 = grid_search(0.025)
 end = time.time()
 
@@ -63,7 +63,7 @@ def data_generation():
     X = np.hstack((x1.reshape(-1,1), -x2.reshape(-1,1)))
     return X, y
   
-  coef = pd.DataFrame()
+coef = pd.DataFrame()
 
 for i in range(100):
     X, y = data_generation()
